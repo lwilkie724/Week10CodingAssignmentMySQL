@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS sauces;
+
+USE sauces;
+
+DROP TABLE IF EXISTS sauce_names;
+
+CREATE TABLE sauce_names (
+    id INT(10) NOT NULL AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    PRIMARY KEY (id)
+);
+
